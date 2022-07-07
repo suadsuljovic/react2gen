@@ -1,11 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Counter from "./components/class/Counter";
+import CounterF from "./components/functional/CounterF";
+import RandomColor from "./components/functional/RandomColor";
 
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<React.StrictMode></React.StrictMode>);
+root.render(
+  <React.StrictMode>
+    <RandomColor />
+  </React.StrictMode>
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
