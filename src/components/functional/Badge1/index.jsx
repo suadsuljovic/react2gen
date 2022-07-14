@@ -13,6 +13,8 @@ const Badge1 = (props) => {
         return "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg";
       case "tip5":
         return "https://blog.photofeeler.com/wp-content/uploads/2017/09/tinder-photo-size-tinder-picture-size-tinder-aspect-ratio-image-dimensions-crop.jpg";
+      default:
+        return "";
     }
   }
 
