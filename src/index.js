@@ -1,16 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Badge1 from "./components/functional/Badge1";
-import Conditional from "./components/functional/Conditional";
-import List from "./components/functional/List";
+
+import SimpleForm from "./components/functional/SimpleForm";
 
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+
+function onSubmit(params) {}
 root.render(
   <React.StrictMode>
-    <List />
+    <SimpleForm />
   </React.StrictMode>
 );
 
