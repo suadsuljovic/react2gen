@@ -2,16 +2,16 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 import SimpleForm from "./components/functional/SimpleForm";
+import TemperatureConverter from "./components/functional/TemperatureConverter";
 
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-function onSubmit(params) {}
 root.render(
   <React.StrictMode>
-    <SimpleForm />
+    <TemperatureConverter />
   </React.StrictMode>
 );
 
