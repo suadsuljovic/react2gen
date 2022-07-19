@@ -37,7 +37,7 @@ const SearchList = (props) => {
   const searchResult = list.filter((movie) => {
     if (search === "") return false;
 
-    return movie.title.includes(search);
+    return movie.title.toLowerCase().includes(search.toLowerCase());
   });
 
   return (
