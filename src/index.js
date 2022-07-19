@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import SearchMock from "./components/functional/SearchMock";
 
 import SimpleForm from "./components/functional/SimpleForm";
 import TemperatureConverter from "./components/functional/TemperatureConverter";
@@ -11,7 +12,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
-    <TemperatureConverter />
+    <SearchMock />
   </React.StrictMode>
 );
 

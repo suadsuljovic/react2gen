@@ -30,7 +30,14 @@ const TemperatureConverter = (props) => {
         value={fahrenheit}
         setValue={setFahrenheit}
       />
-      <button onClick={() => {}}>Convert to Celsius</button>
+      <button
+        onClick={() => {
+          const celsiusValue = toCelsius(fahrenheit);
+          setCelsius(celsiusValue);
+        }}
+      >
+        Convert to Celsius
+      </button>
     </div>
   );
 };
