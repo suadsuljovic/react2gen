@@ -1,5 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Composition from "./components/functional/Composition";
+import MainButton from "./components/functional/MainButton";
 import SearchMock from "./components/functional/SearchMock";
 
 import SimpleForm from "./components/functional/SimpleForm";
@@ -12,7 +14,10 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
-    <SearchMock />
+    <MainButton text="Pritisni" color="white" />
+    <MainButton text="Pritisni" color="dark" />
+    <MainButton text="Pritisni" color="yellow" />
+    <MainButton text="Pritisni" color="red" />
   </React.StrictMode>
 );
 

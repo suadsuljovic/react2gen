@@ -1,0 +1,21 @@
+.main {
+  background-color: black;
+  color: white;
+}
+.red {
+  background-color: red;
+  color: white;
+}
+.yellow {
+  background-color: rgb(105, 105, 0);
+  color: white;
+}
+.white {
+  background-color: white;
+  color: black;
+}
+
+.normal {
+  padding: 5px 10px;
+  font-size: 18px;
+}
