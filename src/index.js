@@ -14,10 +14,11 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
-    <MainButton text="Pritisni" color="white" />
-    <MainButton text="Pritisni" color="dark" />
-    <MainButton text="Pritisni" color="yellow" />
-    <MainButton text="Pritisni" color="red" />
+    <MainButton text="Pritisni" color="white" radius="xs" size="xs" />
+    <MainButton text="Pritisni" color="dark" radius="sm" size="sm" />
+    <MainButton text="Pritisni" color="yellow" radius="md" size="md" />
+    <MainButton text="Pritisni" color="red" radius="lg" size="lg" />
+    <MainButton text="Pritisni" color="red" radius="xl" size="xl" />
   </React.StrictMode>
 );
 
