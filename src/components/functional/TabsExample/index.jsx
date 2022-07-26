@@ -4,6 +4,7 @@ import Tabs from "../Tabs";
 const TabsExample = (props) => {
   const [selectedTab, setSelectedTab] = useState("Item 1");
   const array = ["Item 1", "Dva tri", "Nesto juce"];
+  
   return (
     <div>
       <Tabs onChange={(title) => setSelectedTab(title)} tabsList={array} />
