@@ -1,8 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Tabs from "./components/functional/Tabs";
-import TabsExample from "./components/functional/TabsExample";
-import Website from "./components/functional/Website";
+import Countdown from "./components/functional/Countdown";
 
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
@@ -11,7 +9,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
-    <Website />
+    <Countdown />
   </React.StrictMode>
 );
 
