@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useEffect } from "react";
-import api from "../../../api/api";
+import { quoteApi } from "../../../api/api";
 
 const Quote = () => {
   const [quote, setQuote] = useState();
@@ -16,7 +16,7 @@ const Quote = () => {
 
   const fetchQuote = async (tags = "famous-quotes") => {
     try {
-      const result = await api.get(`/random?tags=${tags}`);
+      const result = await quoteApi.get(`/random?tags=${tags}`);
       const data = result.data;
       setQuote(data);
     } catch (error) {

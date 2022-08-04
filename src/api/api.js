@@ -1,7 +1,11 @@
 import axios from "axios";
 
-const api = axios.create({
+const quoteApi = axios.create({
   baseURL: "https://api.quotable.io",
 });
 
-export default api;
+const catApi = axios.create({
+  baseURL: "https://api.thecatapi.com/",
+});
+
+export { quoteApi, catApi };
