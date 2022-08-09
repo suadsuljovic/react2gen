@@ -15,7 +15,9 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   // <React.StrictMode>
   <div>
-    <SimpleContext></SimpleContext>
+    <SimpleContext>
+      <ContextConsumer />
+    </SimpleContext>
   </div>
 
   // </React.StrictMode>
