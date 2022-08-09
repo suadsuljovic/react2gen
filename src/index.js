@@ -7,12 +7,17 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import GetQuotes from "./components/functional/GetQuotes/GetQuotes";
 import RandomCat from "./components/functional/RandomCat/RandomCat";
+import SimpleContext from "./components/functional/SimpleContext";
+import ContextConsumer from "./components/functional/ContextConsumer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   // <React.StrictMode>
-  <RandomCat />
+  <div>
+    <SimpleContext></SimpleContext>
+  </div>
+
   // </React.StrictMode>
 );
 
