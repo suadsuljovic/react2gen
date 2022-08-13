@@ -1,23 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Quote from "./components/functional/Quote";
-import QuoteCard from "./components/functional/GetQuotes/QouteCard";
 
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import GetQuotes from "./components/functional/GetQuotes/GetQuotes";
-import RandomCat from "./components/functional/RandomCat/RandomCat";
-import SimpleContext from "./components/functional/SimpleContext";
-import ContextConsumer from "./components/functional/ContextConsumer";
+
+import Memorize from "./components/functional/Memorize";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   // <React.StrictMode>
   <div>
-    <SimpleContext>
-      <ContextConsumer />
-    </SimpleContext>
+    <Memorize />
   </div>
 
   // </React.StrictMode>
