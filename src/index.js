@@ -3,17 +3,18 @@ import ReactDOM from "react-dom/client";
 
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-
-import Memorize from "./components/functional/Memorize";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import RouterPage from "./components/functional/RouterPage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   // <React.StrictMode>
   <div>
-    <Memorize />
+    <BrowserRouter>
+      <RouterPage />
+    </BrowserRouter>
   </div>
-
   // </React.StrictMode>
 );
 
